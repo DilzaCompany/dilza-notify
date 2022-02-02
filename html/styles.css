@@ -1,0 +1,145 @@
+body {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.toast {
+    width: 100px;
+    float: right;
+}
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #1e1e1e;
+    float: right;
+}
+
+.main {
+    margin: 12px 16px 12px 56px;
+    position: relative;
+}
+
+.main::before {
+    font-size: 24px;
+    top: calc(50% - 12px);
+    left: -40px;
+    line-height: 24px;
+    position: absolute;
+}
+
+/* Success Notification*/
+
+.success-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    color: #1ca800;
+}
+
+.success {
+    background-color: #19191b;
+    color: #fff;
+    box-shadow: 0 0 40px #00000069;
+    padding: 5px 5px 5px 5px;
+}
+
+.success-border {
+    border-left: 4px solid #1ca800;
+}
+
+/* Info Notification*/
+
+.info-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0f3";
+    color: #1c77ff;
+}
+
+.info {
+    background-color: #19191b;
+    color: #fff;
+    box-shadow: 0 0 40px #00000069;
+    padding: 5px 5px 5px 5px;
+}
+
+.info-border {
+    border-left: 4px solid #1c77ff;
+}
+
+/* Warning Notification */
+
+.warning-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: #ffd51c;
+}
+
+.warning {
+    background-color: #19191b;
+    color: #fff;
+    box-shadow: 0 0 40px #00000069;
+    padding: 5px 5px 5px 5px;
+}
+
+.warning-border {
+    border-left: 4px solid #ffd51c;
+}
+
+/* Error Notification */
+
+
+.error-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: #ff1c1c;
+}
+
+.error {
+    background-color: #19191b;
+    color: #fff;
+    box-shadow: 0 0 40px #00000069;
+    padding: 5px 5px 5px 5px;
+}
+
+.error-border {
+    border-left: 4px solid #ff1c1c;
+}
+
+/* SMS Notification */
+
+.phonemessage-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f7cd";
+    color: #ff9d1c;
+}
+
+.phonemessage {
+    background-color: #19191b;
+    color: #fff;
+    box-shadow: 0 0 40px #00000069;
+    padding: 5px 5px 5px 5px;
+}
+
+.phonemessage-border {
+    border-left: 4px solid #ff9d1c;
+}
+
+/* Long Text Notification */
+
+.neutral-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f11c";
+    color: #494446;
+}
+
+.neutral {
+    background-color: #19191b;
+    color: #fff;
+    box-shadow: 0 0 40px #00000069;
+    padding: 5px 5px 5px 5px;
+}
+
+.neutral-border {
+    border-left: 4px solid #646464;
+}
