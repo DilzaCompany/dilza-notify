@@ -16,11 +16,11 @@ Ejemplo:
 
 exports['dilza-notify']:Alert("INFO", "This scirpts it's by <span style='color:#1c77ff'>DILZA CORE</span>!", 5000,'info')
 
-Server
+Server:
 
 TriggerClientEvent('dilza-notify:Alert', source, "TITULO", "Texto <span style='color:#1c77ff'>TEXTO RESALTADO</span>!", timpo, 'info')
 
-Ejemplo
+Ejemplo:
 
 TriggerClientEvent('dilza-notify:Alert', source, "INFO", "This scirpts it's by <span style='color:#1c77ff'>DILZA CORE</span>!", 5000, 'info')
 ```
