@@ -29,7 +29,7 @@ TriggerClientEvent('dilza-notify:Alert', source, "INFO", "This scirpts it's by <
   
   <hr width = "500vw">
   
-  <img src = "https://cdn.discordapp.com/attachments/938153531947515996/938593821334319184/notify.png" width = "500">
+  <img src = "https://cdn.discordapp.com/attachments/938153531947515996/938594494469767189/Desktop_Screenshot_2022.02.02_-_20.36.16.49.png" width = "500">
   
   
 
